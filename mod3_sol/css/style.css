@@ -1,0 +1,65 @@
+body {
+    background-color : black;
+    color:black;
+    font-family: 'Franklin Gothic Medium', sans-serif,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+
+section {
+color:white;
+}
+
+li div {
+    color:orange;
+}
+.section{
+    border: 2px solid orange;
+    margin: 20px 0;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.section-title{
+    color:orange;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+
+}
+
+
+
+@media (min-width: 992px) {
+    .section {
+        height: 700px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+  }
+  
+
